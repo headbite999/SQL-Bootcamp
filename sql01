@@ -1,0 +1,18 @@
+
+// 1
+SELECT name, positon
+FROM sparta_emplayees
+
+// 2
+select DISTINCT position
+from sparta_emplayees
+
+// 3
+SELECT *
+FROM sparta_emplayees
+where salary between 40000 and 60000
+
+//4
+SELECT *
+from sparta_emplayees
+where hire_date <= '2023-01-01'
